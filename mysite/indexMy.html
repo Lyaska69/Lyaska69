@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>О себе</title>
+    <script async src="./js/popup.js">
+    </script>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="site-logo" src="img/logo.svg" alt="логотип">
+        <ul class="site-menu">
+            <li><a class="menu-link active-link" href="#">О себе</a></li>
+            <li><a class="menu-link" href="../mysite/pages/education.html">Образование</a></li>
+            <li><a class="menu-link" href="../mysite/pages/family.html">Семья</a></li>
+            <li><a class="menu-link" href="../mysite/pages/contacts.html">Контакты</a></li>
+        </ul>
+        <a class="login-button" href="login.html">Войти</a>
+        <div class="login-popup">
+            <img class="popup-close" src="img/closer.svg" alt="крестик">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="main-heading">Добро пожаловать на мой первый сайт!</h1>
+        <img class="class-photo" src="img/photo.png" width="300" height="452" alt="изображение">
+        <h2>Немного о себе</h2>
+        <p class="intro-text">Меня зовут Марина. Мне 30 лет и это мое начало пути в мир it.
+            Родилась и выросла в небольшом городке Свердловской области.
+            Я давно задумывалась об этом и волей судьбы представился отличный шанс. </p>
+
+        <h2>Чему я планирую научиться</h2>
+        <p class="intro-text">На этом курсе я планирую узнать, как устроены веб-сайты и как создавать их с
+            нуля. Изучить основы языков <strong>HTML</strong>, <strong>CSS</strong> и немного
+            <strong>JavaScript</strong>.
+            Сверстать свой первый сайт по макету. А затем <em>самой</em>
+            сверстать свою личную страничку в качестве домашнего задания и
+            выложить ее на сервер.
+        </p>
+    </main>
+    <footer class="footer">
+        <p class="copyright">
+            2022-2023 &copy; <a href="https://ru.wikipedia.org/wiki/%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3"
+                class="innop-link">Екатеринбург</a>
+        </p>
+    </footer>
+</body>
+
+</html>
