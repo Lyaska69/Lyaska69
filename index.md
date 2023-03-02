@@ -20,9 +20,9 @@
         <img class="site-logo" src="img/logo.svg" alt="логотип">
         <ul class="site-menu">
             <li><a class="menu-link active-link" href="#">Главная</a></li>
-            <li><a class="menu-link" href="../les12/pages/students.html">Студенты</a></li>
-            <li><a class="menu-link" href="../les12/pages/about.html">О курсе</a></li>
-            <li><a class="menu-link" href="../les12/pages/contacts.html">Контакты</a></li>
+            <li><a class="menu-link" href="../pages/students.html">Студенты</a></li>
+            <li><a class="menu-link" href="../pages/about.html">О курсе</a></li>
+            <li><a class="menu-link" href="../pages/contacts.html">Контакты</a></li>
         </ul>
         <a class="login-button" href="login.html">Войти</a>
         <div class="login-popup">
